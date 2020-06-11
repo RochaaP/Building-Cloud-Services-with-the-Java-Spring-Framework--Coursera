@@ -57,7 +57,7 @@ public class Video {
 
 	public void setName(String name) {
 		this.name = name;
-	}
+}
 
 	public String getUrl() {
 		return url;
@@ -98,6 +98,8 @@ public class Video {
 	public void setLikedBy(Set<String> likedBy) {
 		this.likedBy = likedBy;
 	}
+
+
 	
 	/**
 	 * Two Videos will generate the same hashcode if they have exactly the same
